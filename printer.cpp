@@ -2,13 +2,12 @@
 
 int main()
 {
-	Printer printer("");
+    Printer printer("");
 
-	printer.print(
-    "string", "\n",
-    "int: ", 3, "\n",
-    "double: ", 5.0
-    );
+    printer.print(
+        "string", "\n",
+        "int: ", 3, "\n",
+        "double: ", 5.0);
 
-	return EXIT_SUCCESS;
+    return EXIT_SUCCESS;
 }
