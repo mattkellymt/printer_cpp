@@ -15,14 +15,12 @@ struct Printer
 		parse(args...);
 		std::cout << stream.str();
 	}
-
 	template <typename arg_t, typename... arg_types>
 	void parse(arg_t arg, arg_types... args)
 	{
 		stream << arg << sep;
 		parse(args...);
 	}
-
 	void parse() { stream << end; }
 };
 
