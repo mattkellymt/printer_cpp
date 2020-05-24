@@ -1,1 +1,1 @@
-Printer will print its arguments to the console.
+Printer uses a variadic function to print all of its arguments to the console.
