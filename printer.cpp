@@ -5,7 +5,7 @@ int main()
     Printer printer("");
 
     printer.print(
-        "string", "\n",
+        "string\n",
         "int: ", 3, "\n",
         "double: ", 5.0);
 
