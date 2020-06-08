@@ -2,7 +2,7 @@
 
 int main()
 {
-    Printer printer("");
+    Printer printer(sep="");
 
     printer.print(
         "string\n",
